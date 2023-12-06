@@ -1,0 +1,20 @@
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta maxime, similique debitis ducimus quae sint quaerat minima corrupti, commodi dolore magni dolores! Nisi, dolorem perferendis voluptas nobis quod suscipit sapiente iure cumque qui laboriosam dolores consequuntur aut magnam in, </p>unde adipisci et? Fugit suscipit reprehenderit recusandae, quae quisquam facilis? Non magni omnis repellat hic deserunt at quibusdam vitae. Qui minus neque illo, sapiente consequatur debitis fugit, doloribus omnis <p>Linventore, deleniti eius totam pariatur labore hic vero odio nostrum excepturi blanditiis obcaecati magni at culpa delectus. Iste autem sit nam nisi, quos sed magnam recusandae rem, ducimus ullam minus, in tempore.</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, sapiente? Unde, consectetur autem. Expedita enim eius cumque officia maiores corrupti numquam corporis rerum ut similique exercitationem asperiores veritatis quos, repellendus necessitatibus, magni a, quisquam nesciunt soluta hic accusantium temporibus dignissimos nisi. Facilis, consectetur repellendus. Esse minima deleniti voluptatem aperiam commodi.</p>
+
+
+
+App\Models\Category::create(
+    [
+        'name' => 'Personal',
+        'slug' => 'personal',
+    ]
+)
+
+App\Models\Post::create(
+    [
+        'title' => 'judul kelima',
+        'category_id' => 3,
+        'slug' => 'judullima',
+        'excerpt' => 'orem ipsum dolor, sit amet consectetur adipisicing elit. Dicta maxime, similique debitis ducimus quae sint quaerat minima corrupti, commodi dolore',
+        'body' => '<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta maxime, similique debitis ducimus quae sint quaerat minima corrupti, commodi dolore magni dolores! Nisi, dolorem perferendis voluptas nobis quod suscipit sapiente iure cumque qui laboriosam dolores consequuntur aut magnam in, </p><p>unde adipisci et? Fugit suscipit reprehenderit recusandae, quae quisquam facilis? Non magni omnis repellat hic deserunt at quibusdam vitae. Qui minus neque illo, sapiente consequatur debitis fugit, doloribus omnis </p> <p>Linventore, deleniti eius totam pariatur labore hic vero odio nostrum excepturi blanditiis obcaecati magni at culpa delectus. Iste autem sit nam nisi, quos sed magnam recusandae rem, ducimus ullam minus, in tempore.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, sapiente? Unde, consectetur autem. Expedita enim eius cumque officia maiores corrupti numquam corporis rerum ut similique exercitationem asperiores veritatis quos, repellendus necessitatibus, magni a, quisquam nesciunt soluta hic accusantium temporibus dignissimos nisi. Facilis, consectetur repellendus. Esse minima deleniti voluptatem aperiam commodi.</p>'
+    ]
+)
